@@ -27,7 +27,7 @@ function prepareplace(){
     if(!document.getElementById("imagegallery")) return false;
     var myalt = document.createElement("img");
     myalt.setAttribute("id","myalt");
-    myalt.setAttribute("src","../image/alt.jpg");
+    myalt.setAttribute("src","image/alt.jpg");
     myalt.setAttribute("alt","This is an gallery");
     var description = document.createElement("p");
     description.setAttribute("id","description");
